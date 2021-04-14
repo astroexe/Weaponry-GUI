@@ -3,7 +3,7 @@ if game.CoreGui:FindFirstChild("NoxWareLib") then
 end
 game:GetService("UserInputService").InputBegan:connect(
     function(key, gpe)
-        if key.KeyCode == Enum.KeyCode.Insert then
+        if key.KeyCode == Enum.KeyCode.RightShift then
             pcall(
                 function()
                     for i, v in pairs(game.CoreGui.NoxWareLib:GetChildren()) do
